@@ -1,0 +1,217 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* background-color: #2679f5; */
+  /* background-color: black; */
+  /* background-color: #06aae2; */
+  /* background-image: url("..\Images\144511.png"); */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.align-center {
+  text-align: center;
+}
+
+.login_box {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 300px;
+  min-height: 250px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.registration_box {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 300px;
+  min-height: 350px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.registration_box button {
+  width: 100%;
+  height: 30px;
+}
+
+.login_box button {
+  width: 100%;
+  height: 30%;
+}
+
+.error {
+  color: red;
+  font-size: 9px;
+  font-style: italic;
+  font-weight: none;
+}
+
+/* Dashboard */
+/* Grid container */
+#p-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  /* Width of columns */
+  grid-template-columns: 25% 25% 25% 25%;
+}
+/* Product items */
+div.p-grid-in {
+  position: relative;
+  box-sizing: border-box;
+  margin: 5px; 
+  /* padding: 10px; */
+  padding: 2px;
+  /* border: 1px solid #e8f0ff; */
+  /* border: 1px solid #06aee2; */
+  /* box-shadow: 1px 1px 10px; */
+  /* background: #f2f7ff; */
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+}
+img.p-img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+div.p-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+div.p-price {
+  color: #f44242;
+}
+div.p-desc {
+  color: #888;
+  font-size: 0.9em;
+}
+
+button.p-add {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: 95px;
+  z-index: 1;
+  background: rgb(6,174,226, 0.45);
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid white;
+  width: 100%;
+  padding: 10px;
+  /* margin: 10px 5px 5px 5px; */
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.p-add:hover {
+  position: absolute;
+  left: 0;
+  bottom: 95px;
+  z-index: 1;
+  background: #06aee2;
+  border-radius: 3px;
+  color: white;
+  /* border: 1px solid #06aee2; */
+  width: 100%;
+  padding: 10px;
+  /* margin: 10px 5px 5px 5px; */
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  #p-grid { grid-template-columns: 33% 33% 33%; }
+}
+@media only screen and (max-width: 600px) {
+  #p-grid { grid-template-columns: 50% 50%; }
+}
+/* [DOES NOT MATTER] */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.red, .blue, .white {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.red {
+  /* color: #1726eb; */
+  color: #1726eb;
+  left: 49.65%;
+  position: absolute;
+}
+
+.blue {
+  color: hotpink;
+  left: 50.35%;
+  position: absolute;
+}
+
+.white {
+  color: white;
+  left: 50%;
+  position: absolute;
+}
